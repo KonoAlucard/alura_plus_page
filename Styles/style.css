@@ -172,3 +172,68 @@ body{
 .footer__list__link:hover{
     color: var(--cor-button);
 }
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+
+    .first_page {
+        height: 40vh;
+    }
+
+    .main_page {
+        background-image: none;
+        display: block;
+        height: 100%;
+    }
+    .wrapper{
+        display: block;
+        text-align: center;
+    }
+
+    .main_page__image{
+        width: 50vw;
+    }
+
+    .main_page__wrapper{
+        margin: 4rem 2rem 2rem;
+    }
+
+    .devices{
+        padding: 2rem;
+        margin-bottom: 0;
+    }
+
+    .devices__list__text {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .devices__list__item__image{
+        width: 30vw;
+    }
+
+    .second_page {
+       height: 60%;
+       text-align: center;
+    }
+
+    .second_page__image{
+        width: 50vw;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .desk {
+        display: none;
+    }
+
+    .mobile {
+    display: flex;
+    margin: auto;
+    }
+}
